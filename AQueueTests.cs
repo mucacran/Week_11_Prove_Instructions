@@ -2,57 +2,74 @@ namespace w11finalProject;
 
 public class AQueueTests
 {
-    private static int capacity = new Random().Next(1, 10);
+    private static int capacity = new Random().Next(5, 10);
+    private static AQueue<int> queue = new AQueue<int>(capacity);
     public static void Run()
     {
-        Console.WriteLine("\n======================\nAQueueTests\n======================");
+        Console.WriteLine("AQueueTests\n======================");
+        //RunPerformanceTests();
         TestEnqueue();
         TestDequeue();
         TestPeek();
         TestContains();
-        Console.WriteLine("======================\n");
+
     }
 
-    public static void RunPerformanceTests()
+    public static void TestEnqueue()
     {
-        Console.WriteLine("\n======================\nAQueueTests\n======================");
-        AQueue<int> queue = new AQueue<int>(capacity);
-        for (int iii = 0; iii < capacity; iii++)
+        Console.WriteLine("TestEnqueue");
+        Random rand = new Random();
+
+        Console.WriteLine("==================================================");
+        Console.WriteLine("|| nº item || item || size || Count || Contains ||");
+        Console.WriteLine("==================================================");
+        
+        for (int i = 0; i < capacity; i++)
         {
-            //array size
-            Console.WriteLine($"{iii} {queue.Capacity} : {queue.Count}");
-            queue.Enqueue(new Random().Next(1, 1000));
+            try
+            {
+                var randItem = rand.Next(1, 9);
+
+                queue.Enqueue(randItem);
+                Console.WriteLine($"|| {i}       || {randItem}    || {queue.Capacity}    || {queue.Count}     || {queue.Contains(queue.Peek())}     ||");
+            }
+            catch (QueueException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
-        Console.WriteLine("======================\n");
+        Console.WriteLine("==================================================");
+
     }
 
-    private static void TestEnqueue()
+/*    private static void TestEnqueue()
     {
         Console.WriteLine("======================");
         Console.WriteLine("TestEnqueue");
         
-        AQueue<int> queue = new AQueue<int>(capacity);
+        
         for (int iii = 0; iii < capacity; iii++)
         {
             //array size
             Console.WriteLine($"{iii} {queue.Capacity} : {queue.Count}");
             queue.Enqueue(new Random().Next(1, 1000));
         }
-    }
+    }*/
 
     private static void TestDequeue()
     {
-        Console.WriteLine("======================");
         Console.WriteLine("TestDequeue");
-        AQueue<int> queue = new AQueue<int>(capacity);
-        for (int iii = 0; iii < capacity; iii++)
-        {
-            //array size
-            Console.WriteLine($"{iii} {queue.Capacity} : {queue.Count}");
-            queue.Enqueue(new Random().Next(1, 1000));
-        }
+
 
         Console.WriteLine($"This is the first element in the queue: {queue.Peek()}");
+        try
+        {
+            Console.WriteLine($"This is the first element to be removed from the queue: {queue.Dequeue()}");
+        }
+        catch (QueueException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
         Console.WriteLine($"This is the first element to be removed from the queue: {queue.Dequeue()}");
 
     }
@@ -61,13 +78,7 @@ public class AQueueTests
     {
         Console.WriteLine("======================");
         Console.WriteLine("TestPeek");
-        AQueue<int> queue = new AQueue<int>(capacity);
-        for (int iii = 0; iii < capacity; iii++)
-        {
-            //array size
-            Console.WriteLine($"{iii} {queue.Capacity} : {queue.Count}");
-            queue.Enqueue(new Random().Next(1, 1000));
-        }
+
         Console.WriteLine($"current queue size: {queue.Count}");
         Console.WriteLine($"This is the first element in the queue: {queue.Peek()}");
         Console.WriteLine($"current queue size: {queue.Count}");
@@ -77,20 +88,15 @@ public class AQueueTests
     {
         Console.WriteLine("======================");
         Console.WriteLine("TestContains");
-        AQueue<int> queue = new AQueue<int>(capacity);
-        for (int iii = 0; iii < capacity; iii++)
-        {
-            //array size
-            Console.WriteLine($"{iii} {queue.Capacity} : {queue.Count}");
-            queue.Enqueue(new Random().Next(1, 10));
-        }
+
         
         var item2 = new Random().Next(10, 20);
 
         //contents of the queue
+        var ii = 0;
         foreach (var i in queue.ToList())
         {
-            Console.WriteLine(i);
+            Console.WriteLine($"{ii++}: {i}");
         }
 
         //true

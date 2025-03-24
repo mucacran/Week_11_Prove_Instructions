@@ -8,7 +8,7 @@ public class QueueException : Exception
 public class AQueue<T>
 
 {
-   private T[] _items;
+    private T[] _items;
     private int _front;
     private int _rear;
     private int _count;
@@ -81,7 +81,7 @@ public class AQueue<T>
         return false;
     }
 
-    // contenido de la lista
+    // list content
     public List<T> ToList()
     {
         List<T> list = new List<T>();
@@ -93,7 +93,7 @@ public class AQueue<T>
         return list;
     }
 
-    // vel el ultimo elemento de la cola
+    // view the last item in the queue
     public T Last()
     {
         if (_count == 0)
