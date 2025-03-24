@@ -12,3 +12,4 @@ F:\SERGIO\BYUi\2025\CSE212\Week_11_Prove_Instructions\obj\Debug\net9.0\refint\We
 F:\SERGIO\BYUi\2025\CSE212\Week_11_Prove_Instructions\obj\Debug\net9.0\Week_11_Prove_Instructions.pdb
 F:\SERGIO\BYUi\2025\CSE212\Week_11_Prove_Instructions\obj\Debug\net9.0\Week_11_Prove_Instructions.genruntimeconfig.cache
 F:\SERGIO\BYUi\2025\CSE212\Week_11_Prove_Instructions\obj\Debug\net9.0\ref\Week_11_Prove_Instructions.dll
+F:\SERGIO\BYUi\2025\CSE212\Week_11_Prove_Instructions\obj\Debug\net9.0\Week_11_Prove_Instructions.sourcelink.json
