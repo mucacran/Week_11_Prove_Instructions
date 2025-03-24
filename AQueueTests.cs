@@ -28,6 +28,7 @@ public class AQueueTests
 
     private static void TestEnqueue()
     {
+        Console.WriteLine("======================");
         Console.WriteLine("TestEnqueue");
         
         AQueue<int> queue = new AQueue<int>(capacity);
@@ -41,6 +42,7 @@ public class AQueueTests
 
     private static void TestDequeue()
     {
+        Console.WriteLine("======================");
         Console.WriteLine("TestDequeue");
         AQueue<int> queue = new AQueue<int>(capacity);
         for (int iii = 0; iii < capacity; iii++)
@@ -57,6 +59,7 @@ public class AQueueTests
 
     private static void TestPeek()
     {
+        Console.WriteLine("======================");
         Console.WriteLine("TestPeek");
         AQueue<int> queue = new AQueue<int>(capacity);
         for (int iii = 0; iii < capacity; iii++)
@@ -72,6 +75,7 @@ public class AQueueTests
 
     private static void TestContains()
     {
+        Console.WriteLine("======================");
         Console.WriteLine("TestContains");
         AQueue<int> queue = new AQueue<int>(capacity);
         for (int iii = 0; iii < capacity; iii++)
