@@ -81,7 +81,6 @@ public class AQueueTests
             queue.Enqueue(new Random().Next(1, 10));
         }
         
-        var item = new Random().Next(1, capacity);
         var item2 = new Random().Next(10, 20);
 
         //contents of the queue
