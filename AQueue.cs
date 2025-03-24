@@ -26,7 +26,11 @@ public class AQueue<T>
         _count = 0;
     }
 
-    //Adds an element to the queue
+    /// <summary>
+    /// Adds an element to the queue
+    /// </summary>
+    /// <param name="item">The element to add to the queue</param>
+    /// <exception cref="QueueException">Thrown when the queue is full</exception>
     public void Enqueue(T item)
     {
         if (_count == _capacity)
@@ -38,7 +42,11 @@ public class AQueue<T>
         _count++;
     }
 
-    //method to delete an element
+    /// <summary>
+    /// method to delete an element
+    /// </summary>
+    /// <returns>The item that was at the front.</returns>
+    /// <exception cref="QueueException">Thrown if the queue is empty.</exception>
     public T Dequeue()
     {
         if (_count == 0)
@@ -51,7 +59,11 @@ public class AQueue<T>
         return item;
     }
 
-    //method to get the first element
+    /// <summary>
+    /// method to get the first element
+    /// </summary>
+    /// <returns>The returning item will be the first in the queue</returns>
+    /// <exception cref="QueueException">Thrown if the queue is empty.</exception>
     public T Peek()
     {
         if (_count == 0)
@@ -61,13 +73,19 @@ public class AQueue<T>
         return _items[_front];
     }
 
-    //method to obtain the queue size
+    /// <summary>
+    /// Returns the used size of the queue
+    /// </summary>
+    /// <returns>returns the value of _counte</returns>
     public int Count
     {
         get { return _count; }
     }
 
-    //class contains
+    /// <summary>
+    /// class contains
+    /// </summary>
+    /// <returns>returns true or false if an item exists within the queue</returns>
     public bool Contains(T item)
     {
         for (int i = 0; i < _count; i++)
@@ -81,7 +99,10 @@ public class AQueue<T>
         return false;
     }
 
-    // list content
+    /// <summary>
+    /// list content
+    /// </summary>
+    /// <returns>I use this method to see the contents of the list</returns>
     public List<T> ToList()
     {
         List<T> list = new List<T>();
@@ -93,7 +114,10 @@ public class AQueue<T>
         return list;
     }
 
-    // view the last item in the queue
+    /// <summary>
+    /// view the last item in the queue
+    /// </summary>
+    /// <returns>With this method we return the item from the end of the queue and we can verify which one it is.</returns>
     public T Last()
     {
         if (_count == 0)

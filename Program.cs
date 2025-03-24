@@ -13,4 +13,5 @@ using w11finalProject;
 
 Console.WriteLine("\n=======================================================\n|| Week 11 Prove: Final Project - Draft Submission 1 ||\n=======================================================");
 AQueueTests.Run();
+QueuePerformance.Run();
 Console.WriteLine("======================\n");
