@@ -1,10 +1,10 @@
 /*
  Performance Analysis:
- - Enqueue, Dequeue y Peek muestran tiempos constantes (casi iguales en todos los tamaños).
-   Esto confirma que su complejidad es O(1).
- - Contains toma más tiempo en queues grandes, como era de esperarse por su complejidad O(n).
- - No se encontraron anomalías, los resultados son consistentes.
- - Estoy satisfecho con los resultados porque reflejan el comportamiento teórico esperado.
+ - Enqueue, Dequeue y Peek show constant times(almost all sizes are the same).
+   This confirms that its complexity is O(1).
+- Contains takes longer on large queues, as expected given its O(n) complexity.
+- No anomalies were found; the results are consistent.
+- I am satisfied with the results because they reflect the expected theoretical behavior.
 */
 
 namespace w11finalProject;
