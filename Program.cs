@@ -12,7 +12,7 @@
 using w11finalProject;
 
 Console.WriteLine("\n======================\nWeek 11 Prove: Final Project - Draft Submission 1\n======================");
-//PerformanceTests.Run();
+PerformanceTests.Run();
 //FunctionalTests.Run();
 AQueueTests.Run();
 Console.WriteLine("======================\n");
