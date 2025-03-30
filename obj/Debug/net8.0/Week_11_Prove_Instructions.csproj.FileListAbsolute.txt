@@ -1,0 +1,15 @@
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/bin/Debug/net8.0/Week_11_Prove_Instructions
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/bin/Debug/net8.0/Week_11_Prove_Instructions.deps.json
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/bin/Debug/net8.0/Week_11_Prove_Instructions.runtimeconfig.json
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/bin/Debug/net8.0/Week_11_Prove_Instructions.dll
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/bin/Debug/net8.0/Week_11_Prove_Instructions.pdb
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.AssemblyInfoInputs.cache
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.AssemblyInfo.cs
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.csproj.CoreCompileInputs.cache
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.sourcelink.json
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.dll
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/refint/Week_11_Prove_Instructions.dll
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.pdb
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/Week_11_Prove_Instructions.genruntimeconfig.cache
+/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/obj/Debug/net8.0/ref/Week_11_Prove_Instructions.dll
