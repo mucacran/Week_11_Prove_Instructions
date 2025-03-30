@@ -11,9 +11,7 @@
 
 using w11finalProject;
 
-Console.WriteLine("\n======================\nWeek 11 Prove: Final Project - Draft Submission 1\n======================");
-//PerformanceTests.Run();
-//FunctionalTests.Run();
+Console.WriteLine("\n=======================================================\n|| Week 11 Prove: Final Project - Draft Submission 1 ||\n=======================================================");
 AQueueTests.Run();
 QueuePerformance.Run();
 Console.WriteLine("======================\n");

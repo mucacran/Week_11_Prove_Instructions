@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dn+QgTjXhn0=",
+  "dgSpecHash": "6veaLoYscGM=",
   "success": true,
-  "projectFilePath": "/Users/fbravo/Downloads/sergio/BYUi/CSE212/Week_11_Prove_Instructions/Week_11_Prove_Instructions.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\SERGIO\\BYUi\\2025\\CSE212\\Week_11_Prove_Instructions\\Week_11_Prove_Instructions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.8\\microsoft.netcore.app.ref.8.0.8.nupkg.sha512",
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.8\\microsoft.windowsdesktop.app.ref.8.0.8.nupkg.sha512",
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.8\\microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512",
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.8\\microsoft.netcore.app.host.win-x64.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
