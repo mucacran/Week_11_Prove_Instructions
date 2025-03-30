@@ -7,6 +7,16 @@
 - I am satisfied with the results because they reflect the expected theoretical behavior.
 */
 
+/*
+Performance Analysis:
+
+- Enqueue, Dequeue y Peek muestran tiempos constantes (O(1)), incluso con tamaños grandes. Esto indica que la lógica del arreglo circular funciona bien.
+- Contains muestra tiempos crecientes con el tamaño, lo cual es esperado porque tiene complejidad O(n).
+- No se observaron anomalías: los datos son consistentes con las expectativas teóricas.
+- Estoy satisfecho con los resultados porque muestran el comportamiento esperado de cada operación.
+*/
+
+
 namespace w11finalProject;
 using System.Diagnostics;
 
